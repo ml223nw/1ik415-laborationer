@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +25,7 @@ time, mark, audio, video {
 
 body {
 		background-color:#003552;
+		alignment-adjust:middle;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -39,7 +39,10 @@ footer, header, hgroup, menu, nav, section
     color:#004a74;
     background-color:#76c8c3;
 	}
+	
 #header {
+	margin-top:30px;
+	margin-bottom:30px;
 	background-color:#003552;
 	background-image: url('../pics/logoTop.png');
 	background-position: center;
@@ -47,31 +50,49 @@ footer, header, hgroup, menu, nav, section
 	text-align:center;
 	height:237px;
     }
+    
 #navigation {
+	margin-bottom:5px;
 	float:left;
 	background-color:#76c8c3;
 	width:190px;
-	margin-top:5px;
 	margin-right:10px;
 	margin-left:10px;
 	}
     
 #content {
-	float:left;
+	margin:210px;
 	background-color:#76c8c3;
 	width:955px;
 	font-family:Georgia, serif;
+	padding-top:20px;
+	padding-bottom:20px;
 	margin-top:5px;
 	margin-bottom:5px;
 	}
 	
 #navigation ul {
-    margin:20px;
-    padding:0; 
+    margin-top:5px;
+    margin:30px;
+    padding-right:20px;
     list-style:none; 
 	}
 	
-#content p, h1, h2, h3, video, img {
-    margin:20px;
+#content p, h1, h2, h3, h4, video, img, form, ul, ol, table {
+    margin:30px 60px 20px 50px;
+    }
     
-	}
+#content li {
+    margin:40px;
+    }
+	
+#footer {
+	margin-left:210px;
+	margin-top:10px;
+	margin-bottom:10px;
+    background-color:#76c8c3;
+    width:955px;
+    font-family:"Times New Roman", serif;
+    font-size:2;
+    clear:both;
+}
