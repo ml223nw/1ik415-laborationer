@@ -79,8 +79,24 @@ footer, header, hgroup, menu, nav, section
     list-style:none; 
 	}
 	
-#content p, h1, h2, h3, h4, video, img, form, ul, ol, table {
-    margin:30px 60px 20px 50px;
+	#content p {
+    margin:30px 90px 30px 90px;
+    }
+	
+	#content h2 {
+    font-size:200%;
+    }
+    
+   	#content h3 {
+    font-size:130%;
+    }
+    
+    #content legend {
+    font-size:200%;
+    }
+	
+#content h1, h2, h3, h4, video, img, form, ul, ol, table {
+    margin:30px 60px 30px 60px;
     }
     
 #content li {
