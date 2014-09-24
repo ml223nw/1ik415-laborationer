@@ -47,29 +47,41 @@ footer, header, hgroup, menu, nav, section
 	background-image: url('../pics/logoTop.png');
 	background-position: center;
 	background-repeat: no-repeat;
-	text-align:center;
 	height:237px;
     }
     
+#pageTitle h1 {
+    margin-right:20px;
+    }
+    
 #navigation {
-	margin-bottom:5px;
+	border-style:solid;
+    border-width:5px;
+    border-color:#001E2E;
+	margin-top:10px;
+	margin-bottom:10px;
 	float:left;
-	background-color:#76c8c3;
+	background-color:#97C8C5;
+	padding-top:20px;
+	padding-bottom:20px;
 	width:190px;
 	margin-right:10px;
 	margin-left:10px;
 	}
     
 #content {
+	border-style:solid;
+    border-width:5px;
+    border-color:#001E2E;
 	margin-left: auto;
     margin-right: auto;
-	background-color:#76c8c3;
-	width:955px;
+	background-color: #97C8C5;
+	width:950px;
 	font-family:Georgia, serif;
 	padding-top:20px;
 	padding-bottom:20px;
-	margin-top:5px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 	}
 	
 #navigation ul {
@@ -104,13 +116,17 @@ footer, header, hgroup, menu, nav, section
     }
 	
 #footer {
-	margin-left: auto;
-    margin-right: auto;
+	margin-left:auto;
+	margin-right:auto;
 	margin-top:10px;
 	margin-bottom:10px;
     background-color:#76c8c3;
-    width:955px;
+    width:190px;
     font-family:"Times New Roman", serif;
     font-size:2;
     clear:both;
+}
+
+#footer p {
+	margin-left:20px;
 }
