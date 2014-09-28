@@ -90,17 +90,20 @@ body {
 	}
 	
 	#content h3, h4, video, form, ul, ol, table {
-    margin:90px 93px 40px 93px;
+    margin:40px 93px 40px 93px;
     color:black;
     }
     
     #content img {
-	margin-left:26px;
-	margin-right:93px;
+    border-left:solid 0px;
+    border-right:solid 15px;
+    border-color: #97C8C5;
+    float:left;
+    margin-left:93px;
     }
     
     #content h2 {
-    margin:30px 60px 30px 60px;
+    margin:30px 60px 110px 60px;
     color:black;
     }
     
@@ -144,7 +147,6 @@ body {
 }
 
 #footer p {
-    text-align:right;
     text-indent:10px;
 	color:black;
 
@@ -239,7 +241,8 @@ th {
 }
 
 .left {
-    float:left;
+	margin-left:26px;
+	margin-right:93px;
 
 }
 .right {
