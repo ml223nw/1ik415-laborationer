@@ -200,3 +200,13 @@ body {
     font-family:Verdana, sans-serif;
     color:black;
 }
+
+table, th, td {
+   border: 2px solid #001E2E;
+   background-color: white;
+}
+
+
+th {
+    background-color:#0EABA1;
+}
