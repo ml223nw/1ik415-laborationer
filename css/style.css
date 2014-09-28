@@ -81,7 +81,7 @@ body {
     border-width:5px;
     border-color:#001E2E;
 	background-color: #97C8C5;
-	width:783px;
+	width:780px;
 	font-family:Georgia, serif;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -89,9 +89,14 @@ body {
 	margin-bottom:10px;
 	}
 	
-	#content h3, h4, video, img, form, ul, ol, table {
-    margin:90px 95px 40px 90px;
+	#content h3, h4, video, form, ul, ol, table {
+    margin:90px 93px 40px 93px;
     color:black;
+    }
+    
+    #content img {
+	margin-left:26px;
+	margin-right:93px;
     }
     
     #content h2 {
@@ -119,7 +124,7 @@ body {
     }
 	
 	#content p {
-    margin:30px 95px 30px 90px;
+    margin:30px 93px 30px 93px;
     color:black;
     }
     
@@ -139,6 +144,7 @@ body {
 }
 
 #footer p {
+    text-align:right;
     text-indent:10px;
 	color:black;
 
@@ -154,7 +160,7 @@ body {
     border-top-style:solid;
     border-left-style:none;
     border-right-style:none;
-	width: 592px;
+	width: 593px;
 	line-height: 150%;
 }
 
@@ -230,4 +236,12 @@ th {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:30px;
+}
+
+.left {
+    float:left;
+
+}
+.right {
+    float:right;
 }
