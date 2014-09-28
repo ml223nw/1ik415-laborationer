@@ -33,7 +33,7 @@ body {
     margin-left:auto;
     margin-right:auto;
     color:#004a74;
-    background-color:#76c8c3;
+    background-color:#003552;
 	}
 	
 #header {
@@ -46,10 +46,10 @@ body {
 	height:237px;
     }
     
-#pageTitle h1 {
+#pageTitle {
 	color:black;
 	font-size: 1.3em;
-    margin-right:50;
+    margin-right:50px;
     }
     
 #navigation {
@@ -91,10 +91,12 @@ body {
 	
 	#content h3, h4, video, img, form, ul, ol, table {
     margin:60px 60px 50px 60px;
+    color:black;
     }
     
     #content h2 {
     margin:30px 60px 30px 60px;
+    color:black;
     }
     
     /* Not used */
@@ -131,7 +133,7 @@ body {
 	margin-top:10px;
 	margin-bottom:15px;
     background-color:#76c8c3;
-    width:185px;
+    width:140px;
     font-family:"Times New Roman", serif;
     font-size:2;
     clear:both;
@@ -139,5 +141,62 @@ body {
 
 #footer p {
 	color:black;
-	margin-left:20px;
+
+}
+
+.postfooter {
+	margin-left:auto;
+	margin-right:auto;
+	font-style:italic;
+    color:#730D0D;
+    border: 1px dotted #001E2E;
+	width: 592px;
+}
+
+#navigation a {
+    font-size:0.9em;
+    line-height: 140%;
+    text-decoration:none;
+    font-family:Verdana, sans-serif;
+    color:black;
+    text-transform:uppercase;
+    display:block;
+}
+#navigation a:hover {
+    background-color:#0EABA1;
+    width:130px;
+    
+}
+#navigation a.active {
+    background-color:yellow;
+    width:130px;
+    
+}
+
+#content a:hover {
+    font-size:100%;
+    color:yellow;
+    text-decoration:underline;
+}
+#content a:visited a:hover {
+    font-size:100%;
+    color:black;
+    text-decoration:underline;
+}
+
+.title {
+	background-color:#97C8C5;
+	margin-right:10px;
+	margin-left:10px;
+    padding-right:auto;
+    width:160px;
+    border-color:#001E2E;
+    }
+
+#mathiasportal {
+    margin-left:30px;
+    font-size:0.8em;
+    font-weight: bold;
+    font-family:Verdana, sans-serif;
+    color:black;
 }
