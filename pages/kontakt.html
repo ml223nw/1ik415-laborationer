@@ -24,13 +24,13 @@
         <h2>KONTAKT</h2>
     <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
-    Namn: <p><input type="text" name="name"></p>
-    Mail: <p><input type="text" name="mail"></p>
+    <p>Namn:</p> <input type="text" name="name">
+    <p>Mail:</p> <input type="text" name="mail">
     <p>Ärende: <select name="type"></p>
         <option value="question" selected>Frågor</option>
         <option value="feedback">Synpunkter</option>
         <option value="other">Övrigt</option>
-                
+        
     </select>
 
 
@@ -38,8 +38,8 @@
         <p><textarea rows="5" cols="28"></textarea></p>
         <input type="radio" name="contact" value="yes">Kontakta mig via mail<br>
         <input type="radio" name="contact" value="no">Kontakta mig via telefon
-        <p><input type="submit" value="Skicka"></p>
         </fieldset>
+        <input type="submit" name="send" value="Skicka" id="submit"/>
     </form>
     </div>
     <div id="footer">
