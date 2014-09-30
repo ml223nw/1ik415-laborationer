@@ -1,0 +1,38 @@
+/* Black text-color and white background for better printing */
+body, #footer, #header, table, fieldset {
+    color:black;
+    background-color:white;
+    /* Making all text serif which is better for print */
+    font-family:"Times New Roman", serif;
+}
+
+#header {
+    display:none;
+}
+
+#navigation {
+    display:none;
+}
+
+#content h2 {
+    display:none;
+}
+
+#content {
+    position:fixed;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer p {
+    display:none;
+}
+
+video {
+    display:none;
+}
+
+/* Mark and type out the links */
+a:after {
+    content: " (" attr(href) ")";
+}
