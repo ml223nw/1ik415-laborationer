@@ -157,6 +157,7 @@ body {
 	margin-right:auto;
 	font-style:italic;
 	text-indent:10px;
+	background-color:#C2C8C7;
     border: 1px solid #001E2E;
     border-bottom-style:solid;
     border-top-style:solid;
@@ -216,18 +217,12 @@ body {
 
 table, th, td {
    border: 2px solid #001E2E;
-   background-color: white;
+   background-color:#C2C8C7;
 }
 
 
 th {
     background-color:#0EABA1;
-}
-
-#content form, p {
-    margin:60px 60px 60px 60px;
-	margin-left:auto;
-	margin-right:auto;
 }
 
 #content input {
@@ -243,8 +238,31 @@ th {
 .left {
 	margin-left:26px;
 	margin-right:93px;
-
 }
+
 .right {
     float:right;
+}
+
+fieldset {
+    margin-left:auto;
+	margin-right:auto;
+    border:2px solid #001E2E;
+    background-color: #C2C8C7; 
+}
+
+textarea {
+    width:400px;
+    height:110px;
+}
+
+#content .radio {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+legend {
+    margin-left:90px;
+    background-color:#0EABA1; 
+    color:black;
 }

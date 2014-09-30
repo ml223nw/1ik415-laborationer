@@ -24,6 +24,7 @@
         <h2>KONTAKT</h2>
     <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
     <fieldset>
+    <legend>Kontakta mig</legend>
     <p>Namn:</p> <input type="text" name="name">
     <p>Mail:</p> <input type="text" name="mail">
     <p>Ärende: <select name="type"></p>
@@ -36,8 +37,14 @@
 
         <p>Meddelande:</p>
         <p><textarea rows="5" cols="28"></textarea></p>
-        <input type="radio" name="contact" value="yes">Kontakta mig via mail<br>
-        <input type="radio" name="contact" value="no">Kontakta mig via telefon
+        
+
+        <p><input type="radio" name="contact" value="yes" class="radio"/> Kontakta mig via mail</p>
+
+
+        <p><input type="radio" name="contact" value="no" class="radio"/> Kontakta mig via telefon</p>
+
+        
         </fieldset>
         <input type="submit" name="send" value="Skicka" id="submit"/>
     </form>
