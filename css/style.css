@@ -67,7 +67,7 @@ body {
 	margin-left:10px;
 	}
 	
-	#navigation ul {
+#navigation ul {
     margin-top:5px;
     margin-bottom:5px;
     margin:30px;
@@ -89,12 +89,12 @@ body {
 	margin-bottom:10px;
 	}
 	
-	#content h3, h4, video, form, ul, ol, table {
+#content h3, h4, video, form, ul, ol, table {
     margin:40px 93px 40px 93px;
     color:black;
     }
     
-    #content img {
+#content img {
     border-left:solid 0px;
     border-right:solid 15px;
     border-color: #97C8C5;
@@ -102,31 +102,25 @@ body {
     margin-left:93px;
     }
     
-    #content h2 {
+#content h2 {
     margin:30px 60px 110px 60px;
     color:black;
     }
     
-    /* Not used */
-    #content h641 {
-	font-size: 1.8em;
-	font-weight: bold;
-    }
-    
-    #content h2 {
+#content h2 {
     color:black;
 	font-size: 2.0em;
     font-weight: bold;
 	text-transform: uppercase;
     }
     
-   	#content h3 {
+#content h3 {
    	color:black;
 	font-size: 1.2em;
 	font-weight: bold;
     }
 	
-	#content p {
+#content p {
     margin:30px 93px 30px 93px;
     color:black;
     }
