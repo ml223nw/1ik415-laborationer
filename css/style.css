@@ -28,6 +28,7 @@ body {
 	alignment-adjust:middle;
 }
 
+/* Main body for everything */
 #container {
     width:1024px;
     margin-left:auto;
@@ -36,6 +37,7 @@ body {
     background-color:#003552;
 	}
 	
+/* Top body of the webpage (where the logo goes) */	
 #header {
 	margin-top:30px;
 	margin-bottom:30px;
@@ -46,12 +48,7 @@ body {
 	height:237px;
     }
     
-#pageTitle {
-	color:black;
-	font-size: 1.3em;
-    margin-right:50px;
-    }
-    
+/* Body of the menu */    
 #navigation {
 	border-style:solid;
     border-width:5px;
@@ -66,7 +63,8 @@ body {
 	margin-right:10px;
 	margin-left:10px;
 	}
-	
+
+/* Alignments of the menu fonts */	
 #navigation ul {
     margin-top:5px;
     margin-bottom:5px;
@@ -74,7 +72,8 @@ body {
     padding-right:20px;
     list-style:none; 
 	}
-    
+
+/* Body of the content */    
 #content {
 	float:left;
 	border-style:solid;
@@ -88,7 +87,8 @@ body {
 	margin-top:10px;
 	margin-bottom:10px;
 	}
-	
+
+/* Font sizes, colors and alignment of contents */	
 #content h3, h4, video, form, ul, ol, table {
     margin:40px 93px 40px 93px;
     color:black;
@@ -129,6 +129,7 @@ body {
     margin:40px;
     }
 	
+/* Author of the webpage */	
 #footer {
     margin-left:854px;
 	margin-top:10px;
@@ -146,6 +147,7 @@ body {
 
 }
 
+/* Blog post author */
 .postfooter {
 	margin-left:auto;
 	margin-right:auto;
@@ -170,15 +172,17 @@ body {
     text-transform:uppercase;
     display:block;
 }
+
+/* Mouse pointer hovering a menu link */
 #navigation a:hover {
     background-color:#0EABA1;
     width:130px;
     
+/* Link is yellow depending on which page is shown */   
 }
 #navigation a.active {
     background-color:yellow;
     width:130px;
-    
 }
 
 #content a:hover {
@@ -192,15 +196,16 @@ body {
     text-decoration:underline;
 }
 
+/* Page title */
 .title {
 	background-color:#97C8C5;
 	margin-right:10px;
 	margin-left:10px;
-    padding-right:auto;
     width:160px;
     border-color:#001E2E;
     }
 
+/* Positon of the page title */
 #mathiasportal {
     margin-left:30px;
     font-size:0.8em;
@@ -209,6 +214,7 @@ body {
     color:black;
 }
 
+/* Table */
 table, th, td {
    border: 2px solid #001E2E;
    background-color:#C2C8C7;
@@ -219,16 +225,13 @@ th {
     background-color:#0EABA1;
 }
 
-#content input {
-    margin-left:90px;
-}
-
 #submit {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:30px;
 }
 
+/* Alignments of the images in #content */
 .left {
 	margin-left:26px;
 	margin-right:93px;
@@ -238,11 +241,16 @@ th {
     float:right;
 }
 
+/* Contact forms */
 fieldset {
     margin-left:auto;
 	margin-right:auto;
     border:2px solid #001E2E;
     background-color: #C2C8C7; 
+}
+
+#content input {
+    margin-left:90px;
 }
 
 textarea {
