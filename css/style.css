@@ -128,6 +128,10 @@ body {
 #content li {
     margin:40px;
     }
+    
+#postlink {
+    margin:30px 93px 30px 93px;
+}
 	
 /* Author of the webpage */	
 #footer {
@@ -160,17 +164,76 @@ body {
     border-left-style:none;
     border-right-style:none;
 	width: 593px;
-	line-height: 150%;
+	line-height: 180%;
 }
 
 #navigation a {
-    font-size:0.9em;
-    line-height: 140%;
+    font-size:12px;
+    line-height: 210%;
     text-decoration:none;
     font-family:Verdana, sans-serif;
     color:black;
     text-transform:uppercase;
     display:block;
+    /* ska fixa till sprites */
+   background-repeat: no-repeat;
+   text-indent:25px;
+}
+
+#home {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 0px;
+    background-repeat: no-repeat;
+}
+
+#home:hover {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -48px;
+    background-repeat: no-repeat;
+}
+
+#lab {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -95px;
+    background-repeat: no-repeat;
+}
+
+#lab:hover {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -143px;
+    background-repeat: no-repeat;
+}
+
+#pres {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -191px;
+    background-repeat: no-repeat;
+}
+
+#pres:hover {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -239px;
+    background-repeat: no-repeat;
+}
+
+#kontakt {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -287px;
+    background-repeat: no-repeat;
+}
+
+#kontakt:hover {
+    width: 24px;
+    height: 24px;
+    background: url('pics/sprite.png') 0 -335px;
+    background-repeat: no-repeat;
 }
 
 /* Mouse pointer hovering a menu link */
@@ -180,7 +243,7 @@ body {
     
 /* Link is yellow depending on which page is shown */   
 }
-#navigation a.active {
+#navigation .active {
     background-color:yellow;
     width:130px;
 }
