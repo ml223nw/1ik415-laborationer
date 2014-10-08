@@ -1,8 +1,7 @@
-/* Black text-color and white background for better printing */
+
 body, #footer, #header, table, fieldset {
     color:black;
     background-color:white;
-    /* Making all text serif which is better for print */
     font-family:"Times New Roman", serif;
 }
 
@@ -19,9 +18,8 @@ body, #footer, #header, table, fieldset {
 }
 
 #content {
-    position:fixed;
-    margin-left:auto;
-    margin-right:auto;
+    position:absolute;
+    border:none;
 }
 
 #footer p {
@@ -32,7 +30,6 @@ video {
     display:none;
 }
 
-/* Mark and type out the links */
 a:after {
     content: " (" attr(href) ")";
 }
