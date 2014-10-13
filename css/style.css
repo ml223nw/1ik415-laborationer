@@ -89,7 +89,7 @@ body {
 	}
 
 /* Font sizes, colors and alignment of contents */	
-#content h3, h4, video, form, ul, ol, table {
+#content h3, h4, video, ul, ol, table {
     margin:40px 93px 40px 93px;
     color:black;
     }
@@ -304,6 +304,11 @@ th {
 }
 
 /* Contact forms */
+#content form {
+    margin:40px 93px 40px 93px;
+}
+
+
 fieldset {
     margin-left:auto;
 	margin-right:auto;

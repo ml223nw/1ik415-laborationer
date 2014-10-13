@@ -150,15 +150,13 @@
     background: url('pics/sprite.png') 0 -325px;
 }
 
-/* Visar hela tabellen */
 #labtable {
    overflow:scroll; 
 }
+
 .entrytitle {
    word-wrap: break-word
-}
-textarea, input, select {
-    width:90%;
+   
 }
 input[type="checkbox"] {
     height:2em;
@@ -174,4 +172,24 @@ input[type="checkbox"] {
 
 div {
     overflow-x: hidden;
+}
+
+/* Contact forms */
+#content form {
+    margin:40px auto 40px 0;
+}
+
+#content input {
+    size:10px;
+    margin-left:20px;
+}
+
+textarea {
+    resize:none;
+    width:260px;
+    height:110px;
+}
+
+.radio {
+   size:10px; 
 }
