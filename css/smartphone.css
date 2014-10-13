@@ -1,0 +1,177 @@
+#content, #header, #footer {
+    float:none;
+    clear:both;
+}
+#content, #container, #footer {
+    width:auto;
+}
+
+#content {
+    position:relative;
+}
+
+#header {
+    height:2px;
+}
+
+#content p, ul, li, h2, video, svg {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#content table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#content h3 {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#content ol {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#content ul li {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.title h1 {
+    margin-top:15px;
+    font-size:20px;
+}
+
+#content img {
+    margin-left:15px;   
+}
+
+#content .postfooter {
+    width:auto;
+}
+
+#footer {
+    margin-left:15px;
+    margin-right:15px;
+    padding-bottom:2px;
+}
+
+#content .entrytitle {
+    margin-left:15px;
+}
+
+#postlink {
+    margin-left:15px;
+    
+}
+#content ol {
+    word-wrap: break-word;
+}
+
+#content h2 {
+    display:none;
+}
+
+#header {
+    background-image:none;
+}
+
+#navigation ul li {
+    margin-left:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    line-height:45%;
+}
+
+#content ul li {
+    word-wrap: break-word;
+}
+
+#navigation a {
+    display:block;
+    width:107%;
+    background-color:#0EABA1;
+    height:45px;
+    text-indent:30px;
+    font-size:20px;
+}
+
+#navigation {
+    width:auto;
+    float:none;s
+}
+
+#navigation a:hover {
+    width:107%;
+    background-color:#0EABA1;
+    background-repeat: no-repeat;
+    height:45px;
+}
+
+
+#navigation .active {
+    width:107%;
+    background-color:yellow;
+    background-repeat: no-repeat;
+    height:45px;
+}
+
+#home {
+    background: url('pics/sprite.png') 0 10px;
+}
+
+#home:hover {
+    background: url('pics/sprite.png') 0 -38px;
+}
+
+#lab {
+    background: url('pics/sprite.png') 0 -85px;
+}
+
+#lab:hover {
+    background: url('pics/sprite.png') 0 -133px;
+}
+
+#pres {
+    background: url('pics/sprite.png') 0 -181px;
+}
+
+#pres:hover {
+    background: url('pics/sprite.png') 0 -229px;
+}
+
+#kontakt {
+    background: url('pics/sprite.png') 0 -277px;
+}
+
+#kontakt:hover {
+    background: url('pics/sprite.png') 0 -325px;
+}
+
+/* Visar hela tabellen */
+#labtable {
+   overflow:scroll; 
+}
+.entrytitle {
+   word-wrap: break-word
+}
+textarea, input, select {
+    width:90%;
+}
+input[type="checkbox"] {
+    height:2em;
+    width:2em;
+}
+
+@media screen and (orientation:landscape)
+{ 
+ #navigation ul li {
+    display:inline-block;
+}
+}
+
+div {
+    overflow-x: hidden;
+}
