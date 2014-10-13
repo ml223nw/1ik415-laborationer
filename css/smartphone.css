@@ -158,10 +158,6 @@
    word-wrap: break-word
    
 }
-input[type="checkbox"] {
-    height:2em;
-    width:2em;
-}
 
 @media screen and (orientation:landscape)
 { 
