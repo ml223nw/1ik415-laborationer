@@ -48,3 +48,14 @@ nav ul li {
     display:inline; 
     margin:5px;
 }
+
+.postfooter {
+    background-color:white;
+    border-bottom:solid black 1px;
+    border-top:solid black 1px;
+    border-left:none 0px;
+    border-right:none 0px;
+    solid black; 
+    margin:5px; 
+    padding:5px;
+}
